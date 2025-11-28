@@ -13,7 +13,7 @@ By the end of this session, you will be able to:
 ## Materials
 
 ### Lecture: Q-Learning with Tic-Tac-Toe
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/week2/week2_lecture_tictactoe.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week2/week2_lecture_tictactoe.ipynb)
 
 Follow-along notebook demonstrating Q-learning concepts step by step:
 - From bandits to MDPs
@@ -23,7 +23,7 @@ Follow-along notebook demonstrating Q-learning concepts step by step:
 - Visualizing learned Q-values
 
 ### Lab Assignment: Q-Learning for Nim
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/week2/week2_lab_nim.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week2/week2_lab_nim.ipynb)
 
 Hands-on exercise where you:
 - Implement the Q-learning update rule
@@ -32,7 +32,7 @@ Hands-on exercise where you:
 - **Challenge:** Can you beat the agent at 4 piles?
 
 ### Solutions
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/week2/week2_lab_nim_solutions.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week2/week2_lab_nim_solutions.ipynb)
 
 Complete solutions with detailed explanations. **Available after the submission deadline.**
 
