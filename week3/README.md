@@ -11,6 +11,15 @@ In this lab, you will:
 4. Implement the REINFORCE policy gradient loss
 5. (Optional) Add a baseline for variance reduction
 
+### Lab Assignment: CartPole
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_lab_assignment.ipynb)
+
+### Lab Assignment: Solutions
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_lab_solutions.ipynb)
+
+### Supporting Notebook: Policy gradient
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_policy_gradient.ipynb)
+
 ## The CartPole Task
 
 **Goal:** Balance a pole on a moving cart for as long as possible
@@ -28,16 +37,6 @@ In this lab, you will:
 **Reward:** +1 for each timestep the pole stays up
 
 **Success:** Average reward ≥ 475 over 100 episodes
-
-### Lab Assignment: Q-Learning for Nim
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_lab_assignment.ipynb)
-
-### Lab Assignment: Solutions
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_lab_solutions.ipynb)
-
-
-### Supporting Notebook: Policy gradient
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week3/week3_policy_gradient.ipynb)
 
 ---
 
