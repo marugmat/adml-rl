@@ -34,9 +34,9 @@ Hands-on exercise where you:
 ### Solutions
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhaw-physical-ai/adml-rl/blob/main/week2/week2_lab_nim_solutions.ipynb)
 
-Complete solutions with detailed explanations. **Available after the submission deadline.**
+Complete solutions with detailed explanations.
 
-## 🎮 The Game of Nim
+## The Game of Nim
 
 Nim is a mathematical strategy game:
 - One or more **piles** of objects
@@ -50,7 +50,7 @@ Nim is a mathematical strategy game:
 - Natural difficulty progression (1 pile → 4 piles)
 - Mathematical optimal strategy exists (but it's not obvious!)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Using Google Colab (Recommended)
 1. Click the "Open in Colab" button above

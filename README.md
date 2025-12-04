@@ -13,3 +13,7 @@ Course materials for the Reinforcement Learning module at ZHAW (Zurich Universit
 - Value Functions and Q-Values
 - The Q-Learning Algorithm
 - Value-Based vs Policy-Based Methods
+
+### [Week 3: Policy Learning](week3/)
+- Policy Learning
+- Cartpole example
