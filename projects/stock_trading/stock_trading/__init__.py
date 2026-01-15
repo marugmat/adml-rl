@@ -1,0 +1,1 @@
+"""Stock trading project package."""
