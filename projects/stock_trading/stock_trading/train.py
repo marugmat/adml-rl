@@ -5,7 +5,7 @@ from gym_anytrading.envs import StocksEnv
 from stable_baselines3 import A2C
 from stable_baselines3.common.vec_env import DummyVecEnv
 
-from .envs import IndicatorStocksEnv
+from .envs import IndicatorStocksEnv, PositionSizeStocksEnv
 
 
 def train_baseline_a2c(
@@ -70,3 +70,37 @@ def train_indicator_a2c(
     )
     model.learn(total_timesteps=total_timesteps)
     return model, ind_env
+
+
+def train_position_size_a2c(
+    train_ind_df,
+    window_size: int = 5,
+    total_timesteps: int = 300_000,
+    learning_rate: float = 7e-4,
+    gamma: float = 0.95,
+    seed: int = 24,
+    transaction_cost: float = 0.001,
+    slippage: float = 0.0005,
+):
+    env = DummyVecEnv(
+        [
+            lambda: PositionSizeStocksEnv(
+                train_ind_df,
+                window_size=window_size,
+                frame_bound=(window_size, len(train_ind_df)),
+                transaction_cost=transaction_cost,
+                slippage=slippage,
+            )
+        ]
+    )
+
+    model = A2C(
+        "MlpPolicy",
+        env,
+        learning_rate=learning_rate,
+        gamma=gamma,
+        verbose=1,
+        seed=seed,
+    )
+    model.learn(total_timesteps=total_timesteps)
+    return model, env
